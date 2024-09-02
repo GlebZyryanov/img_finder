@@ -16,11 +16,20 @@ body {
     width: 60%;
     padding: 10px;
     margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    
 }
 
 #search-button {
     padding: 10px 20px;
     cursor: pointer;
+    background-color: rgb(66, 113, 255);
+    color: aliceblue;
+    font-size: medium;
+    border-radius: 8px;
+    border: 1px solid rgb(0, 0, 1);
 }
 
 #image-container {
@@ -33,4 +42,8 @@ body {
     margin: 10px;
     max-width: 200px;
     max-height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    
 }
